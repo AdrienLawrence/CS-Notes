@@ -1,4 +1,4 @@
-## Pathlib
+# Pathlib
 - Pathlib is a module part of the standard library which contains a Path class for turning file paths into objects 
 
 - It is imported with “From pathlib import Path”
