@@ -39,6 +39,7 @@ The URL identifies the specific resource (data object) you want to interact with
 
 - Ex. 
     '/users' - A collection of all users
+
     '/users/123' A specific user with the ID '123'
 
 Example HTTP requests using URLs: 
@@ -76,20 +77,28 @@ Part Two: The headers
 - Example pairs include:
     Host: The server 
     (Ex. 'www.google.com')
+
     Content-Type: The data format sent by the client
     (Ex. 'application/json')
+
     Authorization: Bearer 'token' 
     (Ex. 'Bearer A1B2C3D45...')
+
     User-Agent: Client software info 
     (Ex. 'Chrome/71.0')
+
     Content-Length: The length of the requested content in bytes 
     (Ex. '1024')
+
     Status: The HTTP Status Code 
     (Ex. '200 OK')
+
     Accept-Language: Clients preferred human language
     (Ex. 'en-US,en;q=0.9')
+
     Accept: The data format received by the client, ';q=x' after a data type is how strongly preferred a format is, where x is a number less than 1, which is the default max preference
     (Ex. 'application/json')
+    
     Connection: Controls where the connection remains open after request
     (Ex. 'keep-alive')
 
@@ -324,7 +333,7 @@ The Five Architectural Constraints:
 
     - Responses from the server MUST define themselves as cacheable or non-cacheable
 
-    - This allows clients to store and resue responses for identical future requests, because the request does not have to be fully processed, the client can simply 'remember' the response without going back to the server
+    - This allows clients to store and reuse responses for identical future requests, because the request does not have to be fully processed, the client can simply 'remember' the response without going back to the server
 
     - This improves performance and reduces server load
 
