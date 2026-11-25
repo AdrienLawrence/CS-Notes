@@ -4,61 +4,61 @@
 
 - Notes are written to support both learning from start to finish and returning later for a specific tool, command, pattern, or tradeoff
 
-# Resume-Aligned Skill Map
+## Resume-Aligned Skill Map
 
 Languages:
 
-- Python: `notes/languages/Python.md`
+- Python: [Python](notes/languages/Python.md)
 
-- Java: `notes/languages/Java.md`
+- Java: [Java](notes/languages/Java.md)
 
-- JavaScript and TypeScript: `notes/languages/JSTS.md`
+- JavaScript and TypeScript: [JSTS](notes/languages/JSTS.md)
 
-- SQL and PostgreSQL fundamentals: `notes/languages/SQL.md`
+- SQL and PostgreSQL fundamentals: [SQL](notes/languages/SQL.md)
 
-- HTML, CSS, responsive design, accessibility, and Tailwind CSS: `notes/languages/HTMLCSS.md`
+- HTML, CSS, responsive design, accessibility, and Tailwind CSS: [HTMLCSS](notes/languages/HTMLCSS.md)
 
 Frameworks and Libraries:
 
-- React, Prisma ORM, Streamlit, and Python library/module concepts: `notes/concepts/LibrariesAndModules.md`
+- React, Prisma ORM, Streamlit, and Python library/module concepts: [LibrariesAndModules](notes/concepts/LibrariesAndModules.md)
 
-- Next.js: `notes/concepts/NextJS.md`
+- Next.js: [NextJS](notes/concepts/NextJS.md)
 
-- FastAPI: `notes/concepts/FastAPI.md`
+- FastAPI: [FastAPI](notes/concepts/FastAPI.md)
 
-- Java Spring Boot: `notes/concepts/JavaSpringBoot.md`
+- Java Spring Boot: [JavaSpringBoot](notes/concepts/JavaSpringBoot.md)
 
-- PyTorch and transformer implementation: `notes/concepts/DeepLearning.md`
+- PyTorch and transformer implementation: [DeepLearning](notes/concepts/DeepLearning.md)
 
 Data and Infrastructure:
 
-- Relational data, transactions, indexing, and normalization: `notes/languages/SQL.md`
+- Relational data, transactions, indexing, and normalization: [SQL](notes/languages/SQL.md)
 
-- MongoDB, Pinecone, vector databases, and NoSQL models: `notes/concepts/NoSQL.md`
+- MongoDB, Pinecone, vector databases, and NoSQL models: [NoSQL](notes/concepts/NoSQL.md)
 
-- pgvector, embeddings, vector search, and RAG: `notes/concepts/DeepLearning.md`
+- pgvector, embeddings, vector search, and RAG: [DeepLearning](notes/concepts/DeepLearning.md)
 
-- Supabase, Row Level Security, Vercel, GitHub Actions, networking, and cloud operations: `notes/concepts/Cloud&Infra.md`
+- Supabase, Row Level Security, Vercel, GitHub Actions, networking, and cloud operations: [Cloud&Infra](notes/concepts/Cloud&Infra.md)
 
-- AWS services and architecture: `notes/concepts/AWS.md`
+- AWS services and architecture: [AWS](notes/concepts/AWS.md)
 
-- Docker and Kubernetes: `notes/concepts/D&K.md`
+- Docker and Kubernetes: [D&K](notes/concepts/D&K.md)
 
-- CI/CD pipelines, quality gates, deployment patterns, and GitHub Actions: `notes/concepts/CICD.md`
+- CI/CD pipelines, quality gates, deployment patterns, and GitHub Actions: [CICD](notes/concepts/CICD.md)
 
 AI and Algorithms:
 
-- OpenAI API, Responses, tools, Realtime, moderation, structured output, safety, and evals: `notes/concepts/AIEngineering.md`
+- OpenAI API, Responses, tools, Realtime, moderation, structured output, safety, and evals: [AIEngineering](notes/concepts/AIEngineering.md)
 
-- Deep learning, PyTorch, BPE, transformers, embeddings, RAG, and pgvector: `notes/concepts/DeepLearning.md`
+- Deep learning, PyTorch, BPE, transformers, embeddings, RAG, and pgvector: [DeepLearning](notes/concepts/DeepLearning.md)
 
-- Classical search, heuristic search, adaptive width, optimization, and benchmarking: `notes/algorithms/Search.md`
+- Classical search, heuristic search, adaptive width, optimization, and benchmarking: [Search](notes/algorithms/Search.md)
 
-- Sorting algorithms: `notes/algorithms/Sorting.md`
+- Sorting algorithms: [Sorting](notes/algorithms/Sorting.md)
 
-- API design, HTTP, authentication, REST, GraphQL, and gRPC: `notes/concepts/APIs.md`
+- API design, HTTP, authentication, REST, GraphQL, and gRPC: [APIs](notes/concepts/APIs.md)
 
-# Suggested Learning Order
+## Suggested Learning Order
 
 Full-Stack Web:
 
@@ -154,7 +154,7 @@ Algorithms and Research:
 
 8. Reproducible benchmarking and experimental analysis
 
-# Reference Rule
+## Reference Rule
 
 - Check installed tool and framework versions before using experimental or version-sensitive APIs
 
